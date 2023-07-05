@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+    
+}
+
+
+.card{
+    padding: 30px;
+}
+
+header img {
+    width: 100%;
+   }
+
+   header section{
+    padding: 20px 30px;
+    background-color: aliceblue;
+   }
+
+.nav-link:hover{
+    color: rgb(203, 147, 168);
+}
+
+.intro{
+    background-color: rgb(234, 232, 229);
+    color: black;
+}
+
+.into h1{
+    align-items: center;
+
+}
+
+.navbar img{
+    width: 170px;
+    height: 130px;
+}
+
+.navbar {
+    background-color:   rgb(234, 232, 229);
+    
+}
+
+.navbar li a {
+    font-size:large;
+    margin: 20px;
+   line-height: 2em;
+   flex-direction: row-reverse;
+   align-items: flex-end;
+   
+}
+
+footer{
+    padding: 10px 30px;
+    background-color: rgb(234, 232, 229);
+    flex-direction: column-reverse;
+    
+    font-family: 'Trocchi', serif;
+    
+
+}
+
+footer svg{
+    width: 70px;
+    height: 70px;
+    fill: rgb(162, 156, 110);
+    padding: 20px;
+    align-items: center;
+
+}
+
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+/*h1::first-letter {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 100em;
+    margin-right: 2px;
+  }**/
+
+  a ::first-line {
+    color:none;
+  }
+
+  .iconos img{
+    width: 40px;
+    height: 40px;
+    margin: 40px;
+    margin-top: 70px;
+
+  }
+
+  .iconos p {
+    margin-top: none;
+  }
+
+  .btn{
+    
+    color: black;
+    background-color: rgb(203, 147, 168);
+  }
